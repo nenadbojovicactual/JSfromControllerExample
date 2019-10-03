@@ -21,7 +21,7 @@ namespace JSfromControllerExample.Controllers
         }
         public ActionResult TestResWrite()
         {
-            // vraca js ili html iz kontrollera
+            // vraca test grana3
             Response.Write("<script>$('#reswrite').html('js iz kontrolera')</script>");
             // vraca partial view
             return PartialView();
